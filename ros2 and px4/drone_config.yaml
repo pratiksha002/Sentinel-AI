@@ -1,0 +1,29 @@
+# Simple drone configuration
+
+formation:
+  type: "line"
+  spacing: 1.0  # meters between drones
+  
+drones:
+  drone_1:
+    id: 1
+    name: "leader"
+    offset: [0.0, 0.0, 0.0]
+  
+  drone_2:
+    id: 2
+    name: "follower_1"
+    offset: [1.0, 0.0, 0.0]  # 1 meter to the right
+  
+  drone_3:
+    id: 3
+    name: "follower_2"
+    offset: [2.0, 0.0, 0.0]  # 2 meters to the right
+
+control:
+  control_frequency: 50  # Hz
+  
+pid:
+  Kp: 0.5
+  Ki: 0.1
+  Kd: 0.2
