@@ -1,4 +1,4 @@
-# Software Module Plan: Sentinel-AI Swarm Drone (4-5 Drones, Ubuntu 26.04, ROS2)
+# Software Module Plan: Sentinel-AI Swarm Drone (4-5 Drones, Ubuntu 22.04, ROS2)
 
 ## TL;DR
 Build a fresh, scalable Python + ROS2 architecture for 4-5 autonomous quadrotor swarm on **Ubuntu 22.04 LTS**. 
