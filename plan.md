@@ -182,7 +182,7 @@ SYSTEM_TIME (2)                    — Time sync (important for swarm coordinati
 
 ---
 
-### **7. px4_ros2_bridge.py** ⭐ **NEW — Phase 1c Only**
+### **7. px4_ros2_bridge.py**
 **Purpose:** Bridges PX4 autopilot + ROS2 + Gazebo for realistic simulation (added in Phase 1c after prototyping validates algorithms).
 
 **Responsibility:**
