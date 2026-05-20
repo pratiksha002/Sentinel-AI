@@ -1,0 +1,4 @@
+source;share/sentinel_swarm/local_setup.bash
+source;share/sentinel_swarm/local_setup.dsv
+source;share/sentinel_swarm/local_setup.sh
+source;share/sentinel_swarm/local_setup.zsh

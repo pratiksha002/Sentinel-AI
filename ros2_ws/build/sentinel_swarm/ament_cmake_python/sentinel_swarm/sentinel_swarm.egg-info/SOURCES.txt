@@ -1,0 +1,6 @@
+setup.py
+sentinel_swarm/__init__.py
+sentinel_swarm.egg-info/PKG-INFO
+sentinel_swarm.egg-info/SOURCES.txt
+sentinel_swarm.egg-info/dependency_links.txt
+sentinel_swarm.egg-info/top_level.txt

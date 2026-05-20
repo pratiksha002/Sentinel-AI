@@ -1,0 +1,6 @@
+msg/DroneState.idl
+msg/DroneState.msg
+msg/FormationReference.idl
+msg/FormationReference.msg
+msg/SwarmCommand.idl
+msg/SwarmCommand.msg

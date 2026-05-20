@@ -1,0 +1,8 @@
+{
+  "package_name": "sentinel_swarm",
+  "non_idl_tuples": [
+    "/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm:msg/DroneState.msg",
+    "/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm:msg/SwarmCommand.msg",
+    "/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm:msg/FormationReference.msg"
+  ]
+}

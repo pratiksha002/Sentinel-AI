@@ -60,17 +60,3 @@ Step 11: Create ROS2 Package Structure (After cloning)
 cd ~/Sentinel-AI
 mkdir -p swarm_core config tests launch
 touch swarm_core/__init__.py
-Quick Reference - What Each Step Does:
-Step	Purpose
-1-2	Update system packages
-3-4	Add ROS2 repository & install ROS2 Humble
-5	Setup bash environment to auto-source ROS2
-6	Install Gazebo 11 & ROS2-Gazebo bridge plugins
-7	Development tools (cmake, git, build-essential)
-8	Python scientific computing & control libraries
-9	Verify all installations work
-10-11	Clone project & create directory structure
-Troubleshooting Tips:
-If ros2 --version fails after step 9, restart terminal or run source ~/.bashrc
-If Gazebo fails to launch, try sudo apt install --fix-broken then reinstall gazebo packages
-For permission issues, ensure you're not using sudo pip install (use regular pip)
