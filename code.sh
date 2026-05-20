@@ -24,8 +24,7 @@ curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-a
 sudo dpkg -i /tmp/ros2-apt-source.deb
 
 # Step 4: Install ROS2 Humble
-sudo apt update
-sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 sudo apt install -y ros-humble-desktop
 sudo apt install -y ros-dev-tools
 
