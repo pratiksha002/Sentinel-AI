@@ -1,0 +1,190 @@
+[0.297s] Invoking command in '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm -- -j10 -l10
+[1.408s] [ 10%] Built target sentinel_swarm__rosidl_generator_c
+[1.408s] [ 10%] Built target ament_cmake_python_symlink_sentinel_swarm
+[1.486s] [ 12%] Built target sentinel_swarm__rs
+[1.596s] [ 14%] Built target sentinel_swarm__cpp
+[2.134s] [ 25%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_c
+[2.197s] [ 35%] Built target sentinel_swarm__rosidl_typesupport_introspection_c
+[2.836s] [ 35%] Built target ament_cmake_python_symlink_swarm_core
+[2.936s] [ 45%] Built target sentinel_swarm__rosidl_typesupport_c
+[2.966s] [ 56%] Built target sentinel_swarm__rosidl_typesupport_cpp
+[2.966s] [ 66%] Built target sentinel_swarm__rosidl_typesupport_introspection_cpp
+[3.254s] [ 77%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_cpp
+[3.740s] [ 77%] Built target sentinel_swarm
+[4.468s] [ 79%] Built target sentinel_swarm__py
+[5.013s] [ 87%] Built target sentinel_swarm__rosidl_generator_py
+[5.426s] running egg_info
+[5.436s] writing sentinel_swarm.egg-info/PKG-INFO
+[5.488s] writing dependency_links to sentinel_swarm.egg-info/dependency_links.txt
+[5.488s] writing top-level names to sentinel_swarm.egg-info/top_level.txt
+[5.523s] reading manifest file 'sentinel_swarm.egg-info/SOURCES.txt'
+[5.523s] writing manifest file 'sentinel_swarm.egg-info/SOURCES.txt'
+[5.678s] [ 91%] Built target sentinel_swarm__rosidl_typesupport_c__pyext
+[5.748s] [ 95%] Built target sentinel_swarm__rosidl_typesupport_introspection_c__pyext
+[6.319s] [100%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_c__pyext
+[6.333s] [100%] Built target ament_cmake_python_build_sentinel_swarm_egg
+[7.285s] running egg_info
+[7.286s] writing swarm_core.egg-info/PKG-INFO
+[7.288s] writing dependency_links to swarm_core.egg-info/dependency_links.txt
+[7.311s] writing top-level names to swarm_core.egg-info/top_level.txt
+[7.378s] reading manifest file 'swarm_core.egg-info/SOURCES.txt'
+[7.394s] writing manifest file 'swarm_core.egg-info/SOURCES.txt'
+[7.825s] [100%] Built target ament_cmake_python_build_swarm_core_egg
+[8.138s] Invoked command in '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm -- -j10 -l10
+[8.352s] Invoking command in '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm
+[8.448s] -- Install configuration: ""
+[8.470s] -- Execute custom install script
+[8.488s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/rosidl_interfaces/sentinel_swarm
+[8.496s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__functions.h
+[8.496s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__struct.h
+[8.496s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__type_support.h
+[8.496s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__functions.h
+[8.499s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__struct.h
+[8.499s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__type_support.h
+[8.499s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__functions.h
+[8.499s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__struct.h
+[8.499s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__type_support.h
+[8.508s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/drone_state.h
+[8.508s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/formation_reference.h
+[8.510s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_generator_c__visibility_control.h
+[8.525s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/swarm_command.h
+[8.525s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/library_path.sh
+[8.577s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/library_path.dsv
+[8.587s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_fastrtps_c.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_fastrtps_c.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_c.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_c.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_introspection_c.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_introspection_c.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.590s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__builder.hpp
+[8.593s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__struct.hpp
+[8.593s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__traits.hpp
+[8.593s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__type_support.hpp
+[8.593s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__builder.hpp
+[8.606s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__struct.hpp
+[8.611s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__traits.hpp
+[8.611s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__type_support.hpp
+[8.617s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__builder.hpp
+[8.617s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__struct.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__traits.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__type_support.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/drone_state.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/formation_reference.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/swarm_command.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_cpp.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_cpp.hpp
+[8.624s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_introspection_cpp.hpp
+[8.643s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_introspection_cpp.hpp
+[8.645s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/pythonpath.sh
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/pythonpath.dsv
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/PKG-INFO
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/SOURCES.txt
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/dependency_links.txt
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/top_level.txt
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/__init__.py
+[8.646s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_c.c
+[8.659s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.659s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_introspection_c.c
+[8.659s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/libsentinel_swarm__rosidl_generator_py.so
+[8.659s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/__init__.py
+[8.659s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state.py
+[8.660s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state_s.c
+[8.660s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference.py
+[8.660s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference_s.c
+[8.669s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command.py
+[8.670s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command_s.c
+[8.670s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.670s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.677s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.677s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.677s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.680s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.680s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/rust_packages/sentinel_swarm
+[8.680s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/Cargo.toml
+[8.680s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/build.rs
+[8.685s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/lib.rs
+[8.685s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/msg.rs
+[8.685s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/msg/rmw.rs
+[8.685s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/DroneState.idl
+[8.696s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/SwarmCommand.idl
+[8.696s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/FormationReference.idl
+[8.696s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/DroneState.msg
+[8.696s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/SwarmCommand.msg
+[8.696s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/FormationReference.msg
+[8.699s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/PKG-INFO
+[8.699s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/SOURCES.txt
+[8.699s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/dependency_links.txt
+[8.699s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/top_level.txt
+[8.699s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/__init__.py
+[8.708s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/communication_layer.py
+[8.717s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/drone_controller.py
+[8.724s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/gazebo_bridge.py
+[8.724s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/math_utilities.py
+[8.724s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/mission_planner.py
+[8.738s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_coordinator.py
+[8.749s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_monitor.py
+[8.758s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/sentinel_swarm/swarm_coordinator.py
+[8.758s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/sentinel_swarm/mission_planner.py
+[8.758s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/sentinel_swarm/drone_controller.py
+[8.758s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/sentinel_swarm/swarm_monitor.py
+[8.758s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/sentinel_swarm/gazebo_bridge.py
+[8.758s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/config/swarm_config.yaml
+[8.761s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/launch/swarm_launch.py
+[8.765s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/gazebo/worlds/swarm_arena.world
+[8.783s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/package_run_dependencies/sentinel_swarm
+[8.783s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/parent_prefix_path/sentinel_swarm
+[8.783s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/ament_prefix_path.sh
+[8.783s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/ament_prefix_path.dsv
+[8.800s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/path.sh
+[8.803s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/path.dsv
+[8.803s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.bash
+[8.803s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.sh
+[8.803s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.zsh
+[8.803s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.dsv
+[8.812s] -- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/package.dsv
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/packages/sentinel_swarm
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/rosidl_cmake-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_libraries-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_targets-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.015s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarmConfig.cmake
+[9.029s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarmConfig-version.cmake
+[9.029s] -- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/package.xml
+[9.040s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_generator_c.so
+[9.043s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_fastrtps_c.so
+[9.043s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_introspection_c.so
+[9.043s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_c.so
+[9.043s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_fastrtps_cpp.so
+[9.046s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_introspection_cpp.so
+[9.051s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_cpp.so
+[9.308s] Listing '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm'...
+[9.308s] Listing '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg'...
+[9.433s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_generator_py.so
+[9.896s] Listing '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core'...
+[9.971s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_cExport.cmake
+[10.017s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_cExport-noconfig.cmake
+[10.017s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cExport.cmake
+[10.017s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.017s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cExport.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cExport.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cExport-noconfig.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_cppExport.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.020s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cppExport.cmake
+[10.023s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.023s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cppExport.cmake
+[10.023s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cppExport-noconfig.cmake
+[10.023s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_pyExport.cmake
+[10.023s] -- Up-to-date: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_pyExport-noconfig.cmake
+[10.078s] Invoked command in '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm

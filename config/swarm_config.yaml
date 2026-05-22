@@ -1,6 +1,6 @@
 # Swarm Configuration File
 swarm:
-  num_drones: 5
+  num_drones: 1
   formation_type: "triangle"  # Options: line, triangle, square, circle
   formation_scale: 2.0  # Distance in meters between drones in formation
   control_frequency: 50  # Hz
@@ -73,3 +73,15 @@ mission:
   
   mission_name: "formation_flight_a_to_b"
   description: "5 drones flying in formation from point A to point B"
+
+# Switch to 1 drone
+#sed -i 's/num_drones: [0-9]/num_drones: 1/' ~/.config/sentinel.yaml && colcon build
+
+# Switch to 2 drones
+#sed -i 's/num_drones: [0-9]/num_drones: 2/' ~/.config/sentinel.yaml && colcon build
+
+# Switch to 3 drones
+#sed -i 's/num_drones: [0-9]/num_drones: 3/' ~/.config/sentinel.yaml && colcon build
+
+# Switch to 5 drones
+#sed -i 's/num_drones: [0-9]/num_drones: 5/' ~/.config/sentinel.yaml && colcon build
