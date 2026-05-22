@@ -1,6 +1,1 @@
-msg/DroneState.idl
-msg/DroneState.msg
-msg/FormationReference.idl
-msg/FormationReference.msg
-msg/SwarmCommand.idl
-msg/SwarmCommand.msg
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/sentinel_swarm

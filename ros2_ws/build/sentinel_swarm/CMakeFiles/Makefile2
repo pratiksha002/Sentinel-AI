@@ -98,13 +98,13 @@ clean: CMakeFiles/sentinel_swarm__cpp.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/clean
-clean: CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/clean
+clean: CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c__pyext.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c__pyext.dir/clean
 clean: CMakeFiles/sentinel_swarm__rosidl_typesupport_c__pyext.dir/clean
-clean: CMakeFiles/ament_cmake_python_copy_swarm_core.dir/clean
+clean: CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/clean
 clean: sentinel_swarm__py/clean
 clean: sentinel_swarm__rs/clean
@@ -435,36 +435,36 @@ CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir
+# Target rules for target CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_sentinel_swarm"
-.PHONY : CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/all
+CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_sentinel_swarm"
+.PHONY : CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_copy_sentinel_swarm: CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/rule
-.PHONY : ament_cmake_python_copy_sentinel_swarm
+ament_cmake_python_symlink_sentinel_swarm: CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/rule
+.PHONY : ament_cmake_python_symlink_sentinel_swarm
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/clean
+CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/all: CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/all
+CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/build.make CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/build.make CMakeFiles/ament_cmake_python_build_sentinel_swarm_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles --progress-num= "Built target ament_cmake_python_build_sentinel_swarm_egg"
@@ -604,36 +604,36 @@ CMakeFiles/sentinel_swarm__rosidl_typesupport_c__pyext.dir/clean:
 .PHONY : CMakeFiles/sentinel_swarm__rosidl_typesupport_c__pyext.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_copy_swarm_core.dir
+# Target rules for target CMakeFiles/ament_cmake_python_symlink_swarm_core.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_copy_swarm_core.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_copy_swarm_core.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_copy_swarm_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_swarm_core"
-.PHONY : CMakeFiles/ament_cmake_python_copy_swarm_core.dir/all
+CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_swarm_core"
+.PHONY : CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_copy_swarm_core.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_swarm_core.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_copy_swarm_core.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_copy_swarm_core: CMakeFiles/ament_cmake_python_copy_swarm_core.dir/rule
-.PHONY : ament_cmake_python_copy_swarm_core
+ament_cmake_python_symlink_swarm_core: CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/rule
+.PHONY : ament_cmake_python_symlink_swarm_core
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_copy_swarm_core.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_copy_swarm_core.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_copy_swarm_core.dir/clean
+CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/all: CMakeFiles/ament_cmake_python_copy_swarm_core.dir/all
+CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/build.make CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/build.make CMakeFiles/ament_cmake_python_build_swarm_core_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/CMakeFiles --progress-num= "Built target ament_cmake_python_build_swarm_core_egg"

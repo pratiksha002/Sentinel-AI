@@ -1,0 +1,238 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm
+[  2%] Generating C code for ROS interfaces
+[  4%] Generating C++ code for ROS interfaces
+[  6%] Generating Rust code for ROS interfaces
+[  6%] Built target ament_cmake_python_symlink_swarm_core
+[  6%] Built target ament_cmake_python_symlink_sentinel_swarm
+running egg_info
+creating swarm_core.egg-info
+writing swarm_core.egg-info/PKG-INFO
+writing dependency_links to swarm_core.egg-info/dependency_links.txt
+writing top-level names to swarm_core.egg-info/top_level.txt
+writing manifest file 'swarm_core.egg-info/SOURCES.txt'
+reading manifest file 'swarm_core.egg-info/SOURCES.txt'
+writing manifest file 'swarm_core.egg-info/SOURCES.txt'
+[  6%] Built target sentinel_swarm__rs
+[  6%] Built target ament_cmake_python_build_swarm_core_egg
+running egg_info
+creating sentinel_swarm.egg-info
+writing sentinel_swarm.egg-info/PKG-INFO
+writing dependency_links to sentinel_swarm.egg-info/dependency_links.txt
+writing top-level names to sentinel_swarm.egg-info/top_level.txt
+writing manifest file 'sentinel_swarm.egg-info/SOURCES.txt'
+reading manifest file 'sentinel_swarm.egg-info/SOURCES.txt'
+writing manifest file 'sentinel_swarm.egg-info/SOURCES.txt'
+[  6%] Built target sentinel_swarm__cpp
+[  8%] Generating C++ type support for eProsima Fast-RTPS
+[ 10%] Generating C++ introspection for ROS interfaces
+[ 12%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_c.dir/rosidl_generator_c/sentinel_swarm/msg/detail/formation_reference__functions.c.o
+[ 14%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_c.dir/rosidl_generator_c/sentinel_swarm/msg/detail/drone_state__functions.c.o
+[ 16%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_c.dir/rosidl_generator_c/sentinel_swarm/msg/detail/swarm_command__functions.c.o
+[ 18%] Generating C++ type support dispatch for ROS interfaces
+[ 18%] Built target ament_cmake_python_build_sentinel_swarm_egg
+[ 20%] Linking C shared library libsentinel_swarm__rosidl_generator_c.so
+[ 20%] Built target sentinel_swarm__rosidl_generator_c
+[ 25%] Generating C introspection for ROS interfaces
+[ 25%] Generating C type support dispatch for ROS interfaces
+[ 27%] Generating C type support for eProsima Fast-RTPS
+[ 29%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_swarm/msg/formation_reference__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_swarm/msg/drone_state__type_support.cpp.o
+[ 33%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_swarm/msg/swarm_command__type_support.cpp.o
+[ 35%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_swarm/msg/detail/dds_fastrtps/swarm_command__type_support.cpp.o
+[ 37%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_swarm/msg/detail/dds_fastrtps/formation_reference__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_swarm/msg/detail/dds_fastrtps/drone_state__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_swarm/msg/detail/drone_state__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_swarm/msg/drone_state__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_swarm/msg/swarm_command__type_support.cpp.o
+[ 47%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/drone_state__type_support.c.o
+[ 50%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/drone_state__type_support_c.cpp.o
+[ 52%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/formation_reference__type_support.c.o
+[ 54%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_swarm/msg/formation_reference__type_support.cpp.o
+[ 56%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/swarm_command__type_support.c.o
+[ 58%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/swarm_command__type_support_c.cpp.o
+[ 60%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_cpp.so
+[ 62%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_c.so
+[ 64%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/formation_reference__type_support_c.cpp.o
+[ 66%] Linking C shared library libsentinel_swarm__rosidl_typesupport_introspection_c.so
+[ 66%] Built target sentinel_swarm__rosidl_typesupport_c
+[ 66%] Built target sentinel_swarm__rosidl_typesupport_cpp
+[ 68%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_swarm/msg/detail/swarm_command__type_support.cpp.o
+[ 70%] Built target sentinel_swarm__rosidl_typesupport_introspection_c
+[ 70%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_swarm/msg/detail/formation_reference__type_support.cpp.o
+[ 72%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_fastrtps_c.so
+[ 75%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_fastrtps_cpp.so
+[ 75%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_c
+[ 77%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_introspection_cpp.so
+[ 77%] Built target sentinel_swarm__rosidl_typesupport_introspection_cpp
+[ 77%] Built target sentinel_swarm
+[ 79%] Generating Python code for ROS interfaces
+[ 79%] Built target sentinel_swarm__py
+[ 81%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/rosidl_generator_py/sentinel_swarm/msg/_formation_reference_s.c.o
+[ 85%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/rosidl_generator_py/sentinel_swarm/msg/_swarm_command_s.c.o
+[ 85%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/rosidl_generator_py/sentinel_swarm/msg/_drone_state_s.c.o
+[ 87%] Linking C shared library rosidl_generator_py/sentinel_swarm/libsentinel_swarm__rosidl_generator_py.so
+[ 87%] Built target sentinel_swarm__rosidl_generator_py
+[ 89%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 91%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 93%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_c.c.o
+[ 95%] Linking C shared library rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 97%] Linking C shared library rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[100%] Linking C shared library rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target sentinel_swarm__rosidl_typesupport_introspection_c__pyext
+[100%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target sentinel_swarm__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/rosidl_interfaces/sentinel_swarm
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__functions.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__struct.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__type_support.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__functions.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__struct.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__type_support.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__functions.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__struct.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__type_support.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/drone_state.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/formation_reference.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/swarm_command.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/library_path.sh
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/library_path.dsv
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__builder.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__struct.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__traits.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__type_support.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__builder.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__struct.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__traits.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__type_support.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__builder.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__struct.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__traits.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__type_support.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/drone_state.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/formation_reference.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/swarm_command.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/pythonpath.sh
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/pythonpath.dsv
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/__init__.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/libsentinel_swarm__rosidl_generator_py.so
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/__init__.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state_s.c
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference_s.c
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command_s.c
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/rust_packages/sentinel_swarm
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/Cargo.toml
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/build.rs
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/lib.rs
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/msg.rs
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/msg/rmw.rs
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/DroneState.idl
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/SwarmCommand.idl
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/FormationReference.idl
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/DroneState.msg
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/SwarmCommand.msg
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/FormationReference.msg
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/__init__.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/communication_layer.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/drone_controller.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/gazebo_bridge.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/math_utilities.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/mission_planner.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_coordinator.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_monitor.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__init__.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/__init__.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/communication_layer.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/drone_controller.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/gazebo_bridge.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/math_utilities.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/mission_planner.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/swarm_coordinator.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/swarm_monitor.cpython-310.pyc
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/communication_layer.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/drone_controller.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/gazebo_bridge.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/math_utilities.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/mission_planner.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/swarm_coordinator.py
+-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/swarm_monitor.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm/config'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:397 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+

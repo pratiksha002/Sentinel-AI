@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/ament_cmake_environment_hooks/library_path.dsv

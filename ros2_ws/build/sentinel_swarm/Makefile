@@ -315,17 +315,17 @@ sentinel_swarm__rosidl_typesupport_cpp/fast:
 .PHONY : sentinel_swarm__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_sentinel_swarm
+# Target rules for targets named ament_cmake_python_symlink_sentinel_swarm
 
 # Build rule for target.
-ament_cmake_python_copy_sentinel_swarm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_sentinel_swarm
-.PHONY : ament_cmake_python_copy_sentinel_swarm
+ament_cmake_python_symlink_sentinel_swarm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_sentinel_swarm
+.PHONY : ament_cmake_python_symlink_sentinel_swarm
 
 # fast build rule for target.
-ament_cmake_python_copy_sentinel_swarm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_copy_sentinel_swarm.dir/build
-.PHONY : ament_cmake_python_copy_sentinel_swarm/fast
+ament_cmake_python_symlink_sentinel_swarm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/build.make CMakeFiles/ament_cmake_python_symlink_sentinel_swarm.dir/build
+.PHONY : ament_cmake_python_symlink_sentinel_swarm/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_sentinel_swarm_egg
@@ -393,17 +393,17 @@ sentinel_swarm__rosidl_typesupport_c__pyext/fast:
 .PHONY : sentinel_swarm__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_swarm_core
+# Target rules for targets named ament_cmake_python_symlink_swarm_core
 
 # Build rule for target.
-ament_cmake_python_copy_swarm_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_swarm_core
-.PHONY : ament_cmake_python_copy_swarm_core
+ament_cmake_python_symlink_swarm_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_swarm_core
+.PHONY : ament_cmake_python_symlink_swarm_core
 
 # fast build rule for target.
-ament_cmake_python_copy_swarm_core/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_copy_swarm_core.dir/build
-.PHONY : ament_cmake_python_copy_swarm_core/fast
+ament_cmake_python_symlink_swarm_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/build.make CMakeFiles/ament_cmake_python_symlink_swarm_core.dir/build
+.PHONY : ament_cmake_python_symlink_swarm_core/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_swarm_core_egg
@@ -1107,8 +1107,8 @@ help:
 	@echo "... test"
 	@echo "... ament_cmake_python_build_sentinel_swarm_egg"
 	@echo "... ament_cmake_python_build_swarm_core_egg"
-	@echo "... ament_cmake_python_copy_sentinel_swarm"
-	@echo "... ament_cmake_python_copy_swarm_core"
+	@echo "... ament_cmake_python_symlink_sentinel_swarm"
+	@echo "... ament_cmake_python_symlink_swarm_core"
 	@echo "... sentinel_swarm"
 	@echo "... sentinel_swarm__cpp"
 	@echo "... sentinel_swarm__py"

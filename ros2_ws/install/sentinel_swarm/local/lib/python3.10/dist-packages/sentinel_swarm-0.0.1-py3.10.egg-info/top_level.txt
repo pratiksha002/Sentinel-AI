@@ -1,1 +1,1 @@
-sentinel_swarm
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/ament_cmake_python/sentinel_swarm/sentinel_swarm.egg-info/top_level.txt

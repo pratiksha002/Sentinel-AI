@@ -1,4 +1,1 @@
-source;share/sentinel_swarm/environment/ament_prefix_path.sh
-source;share/sentinel_swarm/environment/library_path.sh
-source;share/sentinel_swarm/environment/path.sh
-source;share/sentinel_swarm/environment/pythonpath.sh
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/ament_cmake_environment_hooks/local_setup.dsv

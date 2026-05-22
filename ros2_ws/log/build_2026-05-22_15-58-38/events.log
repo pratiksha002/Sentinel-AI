@@ -1,0 +1,798 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (sentinel_swarm) JobQueued: {'identifier': 'sentinel_swarm', 'dependencies': OrderedDict()}
+[0.002256] (sentinel_swarm) JobStarted: {'identifier': 'sentinel_swarm'}
+[0.089013] (sentinel_swarm) JobProgress: {'identifier': 'sentinel_swarm', 'progress': 'cmake'}
+[0.133918] (-) TimerEvent: {}
+[0.151906] (sentinel_swarm) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm'], 'cwd': '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vboxuser'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIT_EDITOR', ':'), ('GIO_MODULE_DIR', '/home/vboxuser/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/240/usr/share/code/code'), ('MANAGERPID', '3006'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3187'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4088'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:16465'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vboxuser/.local/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ub:@/tmp/.ICE-unix/3153,unix/ub:/tmp/.ICE-unix/3153'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', '478e0929c0554edf809c987b308b641e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-25cd543c6d084f32.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vboxuser/.config/Code/User/workspaceStorage/8eaecc5e5075aef09a720984ebcf27c2/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vboxuser/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.50UPP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8290425654.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vboxuser/snap/code/240/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('ALSA_CARD', 'dummy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vboxuser/snap/code/240/.local/share:/home/vboxuser/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm:/opt/ros/humble')]), 'shell': False}
+[0.235579] (-) TimerEvent: {}
+[0.352734] (-) TimerEvent: {}
+[0.471334] (-) TimerEvent: {}
+[0.572206] (-) TimerEvent: {}
+[0.676905] (-) TimerEvent: {}
+[0.723861] (sentinel_swarm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.789194] (-) TimerEvent: {}
+[0.898131] (-) TimerEvent: {}
+[1.000317] (-) TimerEvent: {}
+[1.103487] (-) TimerEvent: {}
+[1.204696] (-) TimerEvent: {}
+[1.310902] (-) TimerEvent: {}
+[1.418396] (-) TimerEvent: {}
+[1.522636] (-) TimerEvent: {}
+[1.549241] (sentinel_swarm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.629396] (-) TimerEvent: {}
+[1.700887] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.735905] (-) TimerEvent: {}
+[1.839365] (-) TimerEvent: {}
+[1.942528] (-) TimerEvent: {}
+[2.068774] (-) TimerEvent: {}
+[2.187427] (-) TimerEvent: {}
+[2.289711] (-) TimerEvent: {}
+[2.390945] (-) TimerEvent: {}
+[2.503853] (-) TimerEvent: {}
+[2.608252] (-) TimerEvent: {}
+[2.714915] (-) TimerEvent: {}
+[2.822610] (-) TimerEvent: {}
+[2.938552] (-) TimerEvent: {}
+[3.049052] (-) TimerEvent: {}
+[3.078248] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.118808] (sentinel_swarm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.119001] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.126706] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.154784] (-) TimerEvent: {}
+[3.159198] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.259893] (-) TimerEvent: {}
+[3.362888] (-) TimerEvent: {}
+[3.473978] (-) TimerEvent: {}
+[3.578852] (-) TimerEvent: {}
+[3.685259] (-) TimerEvent: {}
+[3.792360] (-) TimerEvent: {}
+[3.905765] (-) TimerEvent: {}
+[4.023619] (-) TimerEvent: {}
+[4.131403] (-) TimerEvent: {}
+[4.237799] (-) TimerEvent: {}
+[4.340271] (-) TimerEvent: {}
+[4.470894] (-) TimerEvent: {}
+[4.579217] (-) TimerEvent: {}
+[4.681136] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.699162] (-) TimerEvent: {}
+[4.717759] (sentinel_swarm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.717996] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.720839] (sentinel_swarm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.758737] (sentinel_swarm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.808528] (-) TimerEvent: {}
+[4.915547] (-) TimerEvent: {}
+[5.023953] (-) TimerEvent: {}
+[5.135242] (-) TimerEvent: {}
+[5.242575] (-) TimerEvent: {}
+[5.347027] (-) TimerEvent: {}
+[5.458084] (-) TimerEvent: {}
+[5.575598] (-) TimerEvent: {}
+[5.678840] (-) TimerEvent: {}
+[5.786979] (-) TimerEvent: {}
+[5.889925] (-) TimerEvent: {}
+[5.942575] (sentinel_swarm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.990150] (-) TimerEvent: {}
+[6.015485] (sentinel_swarm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.043079] (sentinel_swarm) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.043439] (sentinel_swarm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.051083] (sentinel_swarm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.084539] (sentinel_swarm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.093033] (-) TimerEvent: {}
+[6.146812] (sentinel_swarm) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.193933] (-) TimerEvent: {}
+[6.197739] (sentinel_swarm) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.294578] (-) TimerEvent: {}
+[6.395694] (-) TimerEvent: {}
+[6.499039] (-) TimerEvent: {}
+[6.600524] (-) TimerEvent: {}
+[6.640054] (sentinel_swarm) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.701144] (-) TimerEvent: {}
+[6.805735] (-) TimerEvent: {}
+[6.915104] (-) TimerEvent: {}
+[7.019265] (-) TimerEvent: {}
+[7.075002] (sentinel_swarm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.119518] (-) TimerEvent: {}
+[7.229048] (-) TimerEvent: {}
+[7.330732] (-) TimerEvent: {}
+[7.431288] (-) TimerEvent: {}
+[7.532665] (-) TimerEvent: {}
+[7.634384] (-) TimerEvent: {}
+[7.748924] (-) TimerEvent: {}
+[7.861731] (-) TimerEvent: {}
+[7.967524] (-) TimerEvent: {}
+[8.028856] (sentinel_swarm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.070124] (-) TimerEvent: {}
+[8.119348] (sentinel_swarm) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.122870] (sentinel_swarm) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.163743] (sentinel_swarm) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.164491] (sentinel_swarm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.164579] (sentinel_swarm) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.164652] (sentinel_swarm) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.171489] (-) TimerEvent: {}
+[8.201236] (sentinel_swarm) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.276312] (-) TimerEvent: {}
+[8.390566] (-) TimerEvent: {}
+[8.474264] (sentinel_swarm) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.490817] (-) TimerEvent: {}
+[8.523940] (sentinel_swarm) StdoutLine: {'line': b'-- Generating done\n'}
+[8.543472] (sentinel_swarm) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm\n'}
+[8.561837] (sentinel_swarm) CommandEnded: {'returncode': 0}
+[8.562743] (sentinel_swarm) JobProgress: {'identifier': 'sentinel_swarm', 'progress': 'build'}
+[8.562816] (sentinel_swarm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm', '--', '-j10', '-l10'], 'cwd': '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vboxuser'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIT_EDITOR', ':'), ('GIO_MODULE_DIR', '/home/vboxuser/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/240/usr/share/code/code'), ('MANAGERPID', '3006'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3187'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4088'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:16465'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vboxuser/.local/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ub:@/tmp/.ICE-unix/3153,unix/ub:/tmp/.ICE-unix/3153'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', '478e0929c0554edf809c987b308b641e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-25cd543c6d084f32.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vboxuser/.config/Code/User/workspaceStorage/8eaecc5e5075aef09a720984ebcf27c2/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vboxuser/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.50UPP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8290425654.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vboxuser/snap/code/240/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('ALSA_CARD', 'dummy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vboxuser/snap/code/240/.local/share:/home/vboxuser/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm:/opt/ros/humble')]), 'shell': False}
+[8.592082] (-) TimerEvent: {}
+[8.682221] (sentinel_swarm) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[8.693559] (-) TimerEvent: {}
+[8.800707] (-) TimerEvent: {}
+[8.904256] (-) TimerEvent: {}
+[9.009499] (-) TimerEvent: {}
+[9.116095] (sentinel_swarm) StdoutLine: {'line': b'[  4%] Generating C++ code for ROS interfaces\n'}
+[9.116310] (-) TimerEvent: {}
+[9.116329] (sentinel_swarm) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_sentinel_swarm\n'}
+[9.134851] (sentinel_swarm) StdoutLine: {'line': b'[  6%] Generating Rust code for ROS interfaces\n'}
+[9.231887] (-) TimerEvent: {}
+[9.344766] (-) TimerEvent: {}
+[9.377276] (sentinel_swarm) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_swarm_core\n'}
+[9.457236] (-) TimerEvent: {}
+[9.575671] (-) TimerEvent: {}
+[9.739563] (-) TimerEvent: {}
+[9.851614] (-) TimerEvent: {}
+[9.968120] (-) TimerEvent: {}
+[10.068939] (-) TimerEvent: {}
+[10.172701] (-) TimerEvent: {}
+[10.274284] (-) TimerEvent: {}
+[10.384668] (-) TimerEvent: {}
+[10.489728] (-) TimerEvent: {}
+[10.618150] (-) TimerEvent: {}
+[10.724234] (-) TimerEvent: {}
+[10.837218] (-) TimerEvent: {}
+[10.939056] (-) TimerEvent: {}
+[11.056286] (-) TimerEvent: {}
+[11.172658] (-) TimerEvent: {}
+[11.243716] (sentinel_swarm) StdoutLine: {'line': b'running egg_info\n'}
+[11.244547] (sentinel_swarm) StdoutLine: {'line': b'creating sentinel_swarm.egg-info\n'}
+[11.245670] (sentinel_swarm) StdoutLine: {'line': b'writing sentinel_swarm.egg-info/PKG-INFO\n'}
+[11.245749] (sentinel_swarm) StdoutLine: {'line': b'writing dependency_links to sentinel_swarm.egg-info/dependency_links.txt\n'}
+[11.246006] (sentinel_swarm) StdoutLine: {'line': b'writing top-level names to sentinel_swarm.egg-info/top_level.txt\n'}
+[11.246708] (sentinel_swarm) StdoutLine: {'line': b"writing manifest file 'sentinel_swarm.egg-info/SOURCES.txt'\n"}
+[11.269362] (sentinel_swarm) StdoutLine: {'line': b"reading manifest file 'sentinel_swarm.egg-info/SOURCES.txt'\n"}
+[11.269834] (sentinel_swarm) StdoutLine: {'line': b"writing manifest file 'sentinel_swarm.egg-info/SOURCES.txt'\n"}
+[11.272647] (-) TimerEvent: {}
+[11.381479] (-) TimerEvent: {}
+[11.499431] (-) TimerEvent: {}
+[11.608625] (-) TimerEvent: {}
+[11.627788] (sentinel_swarm) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_sentinel_swarm_egg\n'}
+[11.661699] (sentinel_swarm) StdoutLine: {'line': b'running egg_info\n'}
+[11.671878] (sentinel_swarm) StdoutLine: {'line': b'creating swarm_core.egg-info\n'}
+[11.671992] (sentinel_swarm) StdoutLine: {'line': b'writing swarm_core.egg-info/PKG-INFO\n'}
+[11.683400] (sentinel_swarm) StdoutLine: {'line': b'writing dependency_links to swarm_core.egg-info/dependency_links.txt\n'}
+[11.687631] (sentinel_swarm) StdoutLine: {'line': b'writing top-level names to swarm_core.egg-info/top_level.txt\n'}
+[11.687736] (sentinel_swarm) StdoutLine: {'line': b"writing manifest file 'swarm_core.egg-info/SOURCES.txt'\n"}
+[11.715702] (sentinel_swarm) StdoutLine: {'line': b"reading manifest file 'swarm_core.egg-info/SOURCES.txt'\n"}
+[11.716552] (-) TimerEvent: {}
+[11.734677] (sentinel_swarm) StdoutLine: {'line': b"writing manifest file 'swarm_core.egg-info/SOURCES.txt'\n"}
+[11.817645] (-) TimerEvent: {}
+[11.944504] (-) TimerEvent: {}
+[12.051962] (-) TimerEvent: {}
+[12.104548] (sentinel_swarm) StdoutLine: {'line': b'[  6%] Built target sentinel_swarm__rs\n'}
+[12.156580] (-) TimerEvent: {}
+[12.261744] (-) TimerEvent: {}
+[12.277008] (sentinel_swarm) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_swarm_core_egg\n'}
+[12.367719] (-) TimerEvent: {}
+[12.473159] (-) TimerEvent: {}
+[12.574460] (-) TimerEvent: {}
+[12.676414] (-) TimerEvent: {}
+[12.778182] (-) TimerEvent: {}
+[12.895263] (-) TimerEvent: {}
+[13.038057] (-) TimerEvent: {}
+[13.108369] (sentinel_swarm) StdoutLine: {'line': b'[  6%] Built target sentinel_swarm__cpp\n'}
+[13.165678] (sentinel_swarm) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_c.dir/rosidl_generator_c/sentinel_swarm/msg/detail/drone_state__functions.c.o\n'}
+[13.185562] (-) TimerEvent: {}
+[13.261719] (sentinel_swarm) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_c.dir/rosidl_generator_c/sentinel_swarm/msg/detail/swarm_command__functions.c.o\n'}
+[13.261962] (sentinel_swarm) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_c.dir/rosidl_generator_c/sentinel_swarm/msg/detail/formation_reference__functions.c.o\n'}
+[13.293119] (-) TimerEvent: {}
+[13.306149] (sentinel_swarm) StdoutLine: {'line': b'[ 14%] Generating C++ type support dispatch for ROS interfaces\n'}
+[13.376864] (sentinel_swarm) StdoutLine: {'line': b'[ 16%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[13.400789] (-) TimerEvent: {}
+[13.436685] (sentinel_swarm) StdoutLine: {'line': b'[ 18%] Generating C++ introspection for ROS interfaces\n'}
+[13.509578] (-) TimerEvent: {}
+[13.646898] (-) TimerEvent: {}
+[13.748014] (-) TimerEvent: {}
+[13.856299] (-) TimerEvent: {}
+[13.966146] (-) TimerEvent: {}
+[14.072705] (-) TimerEvent: {}
+[14.193217] (-) TimerEvent: {}
+[14.317352] (-) TimerEvent: {}
+[14.433680] (-) TimerEvent: {}
+[14.541121] (-) TimerEvent: {}
+[14.642766] (-) TimerEvent: {}
+[14.762045] (-) TimerEvent: {}
+[14.810564] (sentinel_swarm) StdoutLine: {'line': b'[ 20%] Linking C shared library libsentinel_swarm__rosidl_generator_c.so\n'}
+[14.867480] (-) TimerEvent: {}
+[14.980325] (-) TimerEvent: {}
+[15.085663] (-) TimerEvent: {}
+[15.209634] (-) TimerEvent: {}
+[15.324803] (-) TimerEvent: {}
+[15.427592] (-) TimerEvent: {}
+[15.542722] (-) TimerEvent: {}
+[15.646815] (-) TimerEvent: {}
+[15.748647] (-) TimerEvent: {}
+[15.854025] (-) TimerEvent: {}
+[15.955133] (-) TimerEvent: {}
+[16.057111] (-) TimerEvent: {}
+[16.131454] (sentinel_swarm) StdoutLine: {'line': b'[ 20%] Built target sentinel_swarm__rosidl_generator_c\n'}
+[16.164352] (-) TimerEvent: {}
+[16.267851] (-) TimerEvent: {}
+[16.370177] (-) TimerEvent: {}
+[16.376656] (sentinel_swarm) StdoutLine: {'line': b'[ 22%] Generating C introspection for ROS interfaces\n'}
+[16.418573] (sentinel_swarm) StdoutLine: {'line': b'[ 25%] Generating C type support for eProsima Fast-RTPS\n'}
+[16.473320] (-) TimerEvent: {}
+[16.493516] (sentinel_swarm) StdoutLine: {'line': b'[ 27%] Generating C type support dispatch for ROS interfaces\n'}
+[16.575232] (-) TimerEvent: {}
+[16.691978] (-) TimerEvent: {}
+[16.815388] (-) TimerEvent: {}
+[16.937373] (-) TimerEvent: {}
+[17.046409] (-) TimerEvent: {}
+[17.149849] (-) TimerEvent: {}
+[17.261360] (-) TimerEvent: {}
+[17.367126] (-) TimerEvent: {}
+[17.486288] (-) TimerEvent: {}
+[17.596427] (-) TimerEvent: {}
+[17.705604] (-) TimerEvent: {}
+[17.821981] (-) TimerEvent: {}
+[17.930603] (-) TimerEvent: {}
+[18.034050] (-) TimerEvent: {}
+[18.137370] (-) TimerEvent: {}
+[18.247159] (-) TimerEvent: {}
+[18.350960] (-) TimerEvent: {}
+[18.465723] (-) TimerEvent: {}
+[18.566807] (sentinel_swarm) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_swarm/msg/drone_state__type_support.cpp.o\n'}
+[18.569327] (-) TimerEvent: {}
+[18.673207] (-) TimerEvent: {}
+[18.680373] (sentinel_swarm) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_swarm/msg/formation_reference__type_support.cpp.o\n'}
+[18.729694] (sentinel_swarm) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_swarm/msg/swarm_command__type_support.cpp.o\n'}
+[18.775560] (-) TimerEvent: {}
+[18.884434] (-) TimerEvent: {}
+[18.993973] (-) TimerEvent: {}
+[19.116752] (-) TimerEvent: {}
+[19.223752] (-) TimerEvent: {}
+[19.333380] (-) TimerEvent: {}
+[19.489997] (-) TimerEvent: {}
+[19.596568] (-) TimerEvent: {}
+[19.699453] (-) TimerEvent: {}
+[19.805897] (-) TimerEvent: {}
+[19.935062] (-) TimerEvent: {}
+[19.949435] (sentinel_swarm) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_swarm/msg/detail/dds_fastrtps/drone_state__type_support.cpp.o\n'}
+[19.980005] (sentinel_swarm) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_swarm/msg/detail/dds_fastrtps/swarm_command__type_support.cpp.o\n'}
+[20.037355] (-) TimerEvent: {}
+[20.135068] (sentinel_swarm) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_swarm/msg/detail/dds_fastrtps/formation_reference__type_support.cpp.o\n'}
+[20.137951] (-) TimerEvent: {}
+[20.243696] (-) TimerEvent: {}
+[20.376307] (-) TimerEvent: {}
+[20.490978] (-) TimerEvent: {}
+[20.625015] (-) TimerEvent: {}
+[20.785792] (-) TimerEvent: {}
+[20.893964] (-) TimerEvent: {}
+[21.002164] (-) TimerEvent: {}
+[21.105741] (-) TimerEvent: {}
+[21.213365] (-) TimerEvent: {}
+[21.315693] (-) TimerEvent: {}
+[21.436225] (-) TimerEvent: {}
+[21.560852] (-) TimerEvent: {}
+[21.647868] (sentinel_swarm) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_swarm/msg/drone_state__type_support.cpp.o\n'}
+[21.650743] (-) TimerEvent: {}
+[21.776021] (-) TimerEvent: {}
+[21.886364] (-) TimerEvent: {}
+[22.012141] (sentinel_swarm) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/drone_state__type_support_c.cpp.o\n'}
+[22.023822] (-) TimerEvent: {}
+[22.142087] (-) TimerEvent: {}
+[22.250306] (-) TimerEvent: {}
+[22.280252] (sentinel_swarm) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_swarm/msg/swarm_command__type_support.cpp.o\n'}
+[22.352295] (-) TimerEvent: {}
+[22.455724] (-) TimerEvent: {}
+[22.596344] (-) TimerEvent: {}
+[22.684381] (sentinel_swarm) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_swarm/msg/detail/drone_state__type_support.cpp.o\n'}
+[22.711363] (-) TimerEvent: {}
+[22.839473] (-) TimerEvent: {}
+[22.946632] (-) TimerEvent: {}
+[23.052190] (-) TimerEvent: {}
+[23.143035] (sentinel_swarm) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_swarm/msg/formation_reference__type_support.cpp.o\n'}
+[23.153410] (-) TimerEvent: {}
+[23.265427] (-) TimerEvent: {}
+[23.405463] (-) TimerEvent: {}
+[23.508389] (-) TimerEvent: {}
+[23.620281] (-) TimerEvent: {}
+[23.733647] (sentinel_swarm) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_swarm/msg/detail/swarm_command__type_support.cpp.o\n'}
+[23.734057] (-) TimerEvent: {}
+[23.841494] (-) TimerEvent: {}
+[23.953317] (-) TimerEvent: {}
+[24.069640] (-) TimerEvent: {}
+[24.147762] (sentinel_swarm) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/drone_state__type_support.c.o\n'}
+[24.205268] (-) TimerEvent: {}
+[24.218021] (sentinel_swarm) StdoutLine: {'line': b'[ 56%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_c.so\n'}
+[24.314489] (-) TimerEvent: {}
+[24.448413] (-) TimerEvent: {}
+[24.569746] (-) TimerEvent: {}
+[24.725491] (-) TimerEvent: {}
+[24.904771] (-) TimerEvent: {}
+[25.028577] (-) TimerEvent: {}
+[25.096659] (sentinel_swarm) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/swarm_command__type_support.c.o\n'}
+[25.149739] (-) TimerEvent: {}
+[25.286276] (-) TimerEvent: {}
+[25.394115] (sentinel_swarm) StdoutLine: {'line': b'[ 60%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_cpp.so\n'}
+[25.394373] (-) TimerEvent: {}
+[25.497784] (-) TimerEvent: {}
+[25.611428] (-) TimerEvent: {}
+[25.722197] (-) TimerEvent: {}
+[25.825223] (-) TimerEvent: {}
+[25.949998] (sentinel_swarm) StdoutLine: {'line': b'[ 60%] Built target sentinel_swarm__rosidl_typesupport_c\n'}
+[25.952573] (-) TimerEvent: {}
+[26.007443] (sentinel_swarm) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/formation_reference__type_support.c.o\n'}
+[26.064318] (-) TimerEvent: {}
+[26.172671] (-) TimerEvent: {}
+[26.291153] (-) TimerEvent: {}
+[26.405456] (-) TimerEvent: {}
+[26.509365] (-) TimerEvent: {}
+[26.645134] (-) TimerEvent: {}
+[26.652290] (sentinel_swarm) StdoutLine: {'line': b'[ 62%] Built target sentinel_swarm__rosidl_typesupport_cpp\n'}
+[26.746019] (-) TimerEvent: {}
+[26.815356] (sentinel_swarm) StdoutLine: {'line': b'[ 64%] Linking C shared library libsentinel_swarm__rosidl_typesupport_introspection_c.so\n'}
+[26.848537] (-) TimerEvent: {}
+[26.959485] (-) TimerEvent: {}
+[27.065564] (-) TimerEvent: {}
+[27.192106] (-) TimerEvent: {}
+[27.297177] (-) TimerEvent: {}
+[27.405270] (-) TimerEvent: {}
+[27.520536] (-) TimerEvent: {}
+[27.655608] (-) TimerEvent: {}
+[27.788383] (-) TimerEvent: {}
+[27.895339] (sentinel_swarm) StdoutLine: {'line': b'[ 64%] Built target sentinel_swarm__rosidl_typesupport_introspection_c\n'}
+[27.979298] (-) TimerEvent: {}
+[28.079921] (-) TimerEvent: {}
+[28.196041] (-) TimerEvent: {}
+[28.305548] (-) TimerEvent: {}
+[28.427375] (-) TimerEvent: {}
+[28.534936] (-) TimerEvent: {}
+[28.658250] (-) TimerEvent: {}
+[28.785650] (-) TimerEvent: {}
+[28.892992] (-) TimerEvent: {}
+[29.004161] (-) TimerEvent: {}
+[29.107411] (-) TimerEvent: {}
+[29.211701] (-) TimerEvent: {}
+[29.321045] (-) TimerEvent: {}
+[29.440990] (-) TimerEvent: {}
+[29.544487] (-) TimerEvent: {}
+[29.561880] (sentinel_swarm) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/formation_reference__type_support_c.cpp.o\n'}
+[29.651536] (-) TimerEvent: {}
+[29.772254] (-) TimerEvent: {}
+[29.908112] (-) TimerEvent: {}
+[30.039253] (-) TimerEvent: {}
+[30.142363] (-) TimerEvent: {}
+[30.257127] (-) TimerEvent: {}
+[30.359139] (-) TimerEvent: {}
+[30.468822] (-) TimerEvent: {}
+[30.588243] (-) TimerEvent: {}
+[30.627032] (sentinel_swarm) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_swarm/msg/detail/formation_reference__type_support.cpp.o\n'}
+[30.689260] (-) TimerEvent: {}
+[30.804270] (-) TimerEvent: {}
+[30.891635] (sentinel_swarm) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.908990] (-) TimerEvent: {}
+[31.010642] (-) TimerEvent: {}
+[31.119933] (-) TimerEvent: {}
+[31.236620] (-) TimerEvent: {}
+[31.342266] (-) TimerEvent: {}
+[31.451659] (-) TimerEvent: {}
+[31.553038] (-) TimerEvent: {}
+[31.656245] (-) TimerEvent: {}
+[31.760352] (-) TimerEvent: {}
+[31.866219] (-) TimerEvent: {}
+[31.967386] (-) TimerEvent: {}
+[32.068502] (-) TimerEvent: {}
+[32.164135] (sentinel_swarm) StdoutLine: {'line': b'[ 70%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_cpp\n'}
+[32.170094] (-) TimerEvent: {}
+[32.274974] (-) TimerEvent: {}
+[32.380305] (-) TimerEvent: {}
+[32.498023] (-) TimerEvent: {}
+[32.608274] (-) TimerEvent: {}
+[32.716875] (-) TimerEvent: {}
+[32.832682] (-) TimerEvent: {}
+[32.941036] (-) TimerEvent: {}
+[33.060324] (-) TimerEvent: {}
+[33.175637] (-) TimerEvent: {}
+[33.281557] (-) TimerEvent: {}
+[33.384279] (-) TimerEvent: {}
+[33.492930] (-) TimerEvent: {}
+[33.607929] (-) TimerEvent: {}
+[33.711358] (-) TimerEvent: {}
+[33.830132] (-) TimerEvent: {}
+[33.932333] (-) TimerEvent: {}
+[34.033210] (-) TimerEvent: {}
+[34.142707] (sentinel_swarm) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/swarm_command__type_support_c.cpp.o\n'}
+[34.169076] (-) TimerEvent: {}
+[34.271282] (-) TimerEvent: {}
+[34.381559] (-) TimerEvent: {}
+[34.498291] (-) TimerEvent: {}
+[34.605748] (-) TimerEvent: {}
+[34.714012] (-) TimerEvent: {}
+[34.833236] (-) TimerEvent: {}
+[34.933666] (-) TimerEvent: {}
+[35.041209] (-) TimerEvent: {}
+[35.146889] (-) TimerEvent: {}
+[35.195273] (sentinel_swarm) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_introspection_cpp.so\n'}
+[35.247790] (-) TimerEvent: {}
+[35.352331] (-) TimerEvent: {}
+[35.464713] (-) TimerEvent: {}
+[35.574423] (-) TimerEvent: {}
+[35.675494] (-) TimerEvent: {}
+[35.784103] (-) TimerEvent: {}
+[35.892729] (-) TimerEvent: {}
+[36.008260] (-) TimerEvent: {}
+[36.117656] (-) TimerEvent: {}
+[36.227515] (-) TimerEvent: {}
+[36.283623] (sentinel_swarm) StdoutLine: {'line': b'[ 75%] Built target sentinel_swarm__rosidl_typesupport_introspection_cpp\n'}
+[36.331806] (-) TimerEvent: {}
+[36.437680] (-) TimerEvent: {}
+[36.540595] (-) TimerEvent: {}
+[36.650786] (-) TimerEvent: {}
+[36.752412] (-) TimerEvent: {}
+[36.805714] (sentinel_swarm) StdoutLine: {'line': b'[ 77%] Linking CXX shared library libsentinel_swarm__rosidl_typesupport_fastrtps_c.so\n'}
+[36.860071] (-) TimerEvent: {}
+[36.961565] (-) TimerEvent: {}
+[37.064522] (-) TimerEvent: {}
+[37.168341] (-) TimerEvent: {}
+[37.278433] (-) TimerEvent: {}
+[37.381632] (-) TimerEvent: {}
+[37.524227] (-) TimerEvent: {}
+[37.640357] (-) TimerEvent: {}
+[37.743498] (-) TimerEvent: {}
+[37.780187] (sentinel_swarm) StdoutLine: {'line': b'[ 77%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_c\n'}
+[37.850707] (-) TimerEvent: {}
+[37.962524] (-) TimerEvent: {}
+[38.087111] (-) TimerEvent: {}
+[38.190709] (-) TimerEvent: {}
+[38.289735] (sentinel_swarm) StdoutLine: {'line': b'[ 77%] Built target sentinel_swarm\n'}
+[38.296285] (-) TimerEvent: {}
+[38.399803] (-) TimerEvent: {}
+[38.502738] (-) TimerEvent: {}
+[38.621437] (-) TimerEvent: {}
+[38.726831] (-) TimerEvent: {}
+[38.828710] (sentinel_swarm) StdoutLine: {'line': b'[ 79%] Generating Python code for ROS interfaces\n'}
+[38.835212] (-) TimerEvent: {}
+[38.940833] (-) TimerEvent: {}
+[39.065924] (-) TimerEvent: {}
+[39.171510] (-) TimerEvent: {}
+[39.279759] (-) TimerEvent: {}
+[39.393423] (-) TimerEvent: {}
+[39.498304] (-) TimerEvent: {}
+[39.604256] (-) TimerEvent: {}
+[39.708295] (-) TimerEvent: {}
+[39.820306] (-) TimerEvent: {}
+[39.930438] (-) TimerEvent: {}
+[40.043358] (-) TimerEvent: {}
+[40.151235] (-) TimerEvent: {}
+[40.254737] (-) TimerEvent: {}
+[40.361399] (-) TimerEvent: {}
+[40.467914] (-) TimerEvent: {}
+[40.582472] (-) TimerEvent: {}
+[40.683520] (-) TimerEvent: {}
+[40.784938] (-) TimerEvent: {}
+[40.888227] (-) TimerEvent: {}
+[40.990159] (-) TimerEvent: {}
+[41.091455] (-) TimerEvent: {}
+[41.202240] (-) TimerEvent: {}
+[41.320318] (-) TimerEvent: {}
+[41.422486] (-) TimerEvent: {}
+[41.522964] (-) TimerEvent: {}
+[41.634627] (-) TimerEvent: {}
+[41.743247] (-) TimerEvent: {}
+[41.851571] (-) TimerEvent: {}
+[41.964099] (-) TimerEvent: {}
+[42.072361] (-) TimerEvent: {}
+[42.176850] (-) TimerEvent: {}
+[42.278541] (-) TimerEvent: {}
+[42.386465] (-) TimerEvent: {}
+[42.499545] (-) TimerEvent: {}
+[42.604176] (-) TimerEvent: {}
+[42.713893] (-) TimerEvent: {}
+[42.825440] (-) TimerEvent: {}
+[42.937488] (sentinel_swarm) StdoutLine: {'line': b'[ 79%] Built target sentinel_swarm__py\n'}
+[42.943293] (-) TimerEvent: {}
+[43.046944] (-) TimerEvent: {}
+[43.147773] (-) TimerEvent: {}
+[43.261076] (-) TimerEvent: {}
+[43.367954] (-) TimerEvent: {}
+[43.374165] (sentinel_swarm) StdoutLine: {'line': b'[ 81%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/rosidl_generator_py/sentinel_swarm/msg/_drone_state_s.c.o\n'}
+[43.470791] (-) TimerEvent: {}
+[43.585619] (-) TimerEvent: {}
+[43.695528] (-) TimerEvent: {}
+[43.810863] (-) TimerEvent: {}
+[43.917986] (-) TimerEvent: {}
+[44.041883] (-) TimerEvent: {}
+[44.147220] (-) TimerEvent: {}
+[44.213288] (sentinel_swarm) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/rosidl_generator_py/sentinel_swarm/msg/_formation_reference_s.c.o\n'}
+[44.250433] (-) TimerEvent: {}
+[44.361278] (-) TimerEvent: {}
+[44.467434] (-) TimerEvent: {}
+[44.571038] (-) TimerEvent: {}
+[44.687791] (-) TimerEvent: {}
+[44.801478] (-) TimerEvent: {}
+[44.915395] (-) TimerEvent: {}
+[45.034721] (-) TimerEvent: {}
+[45.141157] (-) TimerEvent: {}
+[45.252370] (-) TimerEvent: {}
+[45.393635] (-) TimerEvent: {}
+[45.450719] (sentinel_swarm) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/sentinel_swarm__rosidl_generator_py.dir/rosidl_generator_py/sentinel_swarm/msg/_swarm_command_s.c.o\n'}
+[45.493113] (-) TimerEvent: {}
+[45.611056] (-) TimerEvent: {}
+[45.718182] (-) TimerEvent: {}
+[45.826617] (-) TimerEvent: {}
+[45.927371] (-) TimerEvent: {}
+[46.035328] (-) TimerEvent: {}
+[46.143693] (-) TimerEvent: {}
+[46.255721] (-) TimerEvent: {}
+[46.360428] (-) TimerEvent: {}
+[46.469474] (-) TimerEvent: {}
+[46.580732] (-) TimerEvent: {}
+[46.701403] (-) TimerEvent: {}
+[46.781084] (sentinel_swarm) StdoutLine: {'line': b'[ 87%] Linking C shared library rosidl_generator_py/sentinel_swarm/libsentinel_swarm__rosidl_generator_py.so\n'}
+[46.808189] (-) TimerEvent: {}
+[46.919641] (-) TimerEvent: {}
+[47.033622] (-) TimerEvent: {}
+[47.138913] (-) TimerEvent: {}
+[47.245342] (-) TimerEvent: {}
+[47.320970] (sentinel_swarm) StdoutLine: {'line': b'[ 87%] Built target sentinel_swarm__rosidl_generator_py\n'}
+[47.348316] (-) TimerEvent: {}
+[47.461446] (-) TimerEvent: {}
+[47.567316] (-) TimerEvent: {}
+[47.669443] (-) TimerEvent: {}
+[47.701788] (sentinel_swarm) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[47.771192] (-) TimerEvent: {}
+[47.879725] (-) TimerEvent: {}
+[47.984244] (-) TimerEvent: {}
+[48.086745] (-) TimerEvent: {}
+[48.210680] (-) TimerEvent: {}
+[48.323438] (-) TimerEvent: {}
+[48.365390] (sentinel_swarm) StdoutLine: {'line': b'[ 91%] Linking C shared library rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.431404] (-) TimerEvent: {}
+[48.541288] (-) TimerEvent: {}
+[48.642767] (-) TimerEvent: {}
+[48.744815] (-) TimerEvent: {}
+[48.863690] (-) TimerEvent: {}
+[48.955649] (sentinel_swarm) StdoutLine: {'line': b'[ 91%] Built target sentinel_swarm__rosidl_typesupport_fastrtps_c__pyext\n'}
+[48.964748] (-) TimerEvent: {}
+[49.068208] (-) TimerEvent: {}
+[49.172282] (-) TimerEvent: {}
+[49.180967] (sentinel_swarm) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_c.c.o\n'}
+[49.273788] (-) TimerEvent: {}
+[49.374669] (-) TimerEvent: {}
+[49.475614] (-) TimerEvent: {}
+[49.512364] (sentinel_swarm) StdoutLine: {'line': b'[ 95%] Linking C shared library rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.576715] (-) TimerEvent: {}
+[49.693929] (sentinel_swarm) StdoutLine: {'line': b'[ 95%] Built target sentinel_swarm__rosidl_typesupport_c__pyext\n'}
+[49.705477] (-) TimerEvent: {}
+[49.806584] (-) TimerEvent: {}
+[49.908598] (sentinel_swarm) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/sentinel_swarm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[49.909054] (-) TimerEvent: {}
+[50.010246] (-) TimerEvent: {}
+[50.079198] (sentinel_swarm) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[50.117042] (-) TimerEvent: {}
+[50.225526] (-) TimerEvent: {}
+[50.338218] (-) TimerEvent: {}
+[50.454165] (-) TimerEvent: {}
+[50.524096] (sentinel_swarm) StdoutLine: {'line': b'[100%] Built target sentinel_swarm__rosidl_typesupport_introspection_c__pyext\n'}
+[50.556984] (-) TimerEvent: {}
+[50.672536] (-) TimerEvent: {}
+[50.742344] (sentinel_swarm) CommandEnded: {'returncode': 0}
+[50.813995] (-) TimerEvent: {}
+[50.818523] (sentinel_swarm) JobProgress: {'identifier': 'sentinel_swarm', 'progress': 'install'}
+[50.922470] (-) TimerEvent: {}
+[51.014224] (sentinel_swarm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm'], 'cwd': '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vboxuser'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIT_EDITOR', ':'), ('GIO_MODULE_DIR', '/home/vboxuser/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vboxuser/Sentinel-AI/ros2_ws/src/sentinel_swarm'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/240/usr/share/code/code'), ('MANAGERPID', '3006'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3187'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4088'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:16465'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vboxuser/.local/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ub:@/tmp/.ICE-unix/3153,unix/ub:/tmp/.ICE-unix/3153'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', '478e0929c0554edf809c987b308b641e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-25cd543c6d084f32.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vboxuser/.config/Code/User/workspaceStorage/8eaecc5e5075aef09a720984ebcf27c2/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vboxuser/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.50UPP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8290425654.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vboxuser/snap/code/240/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('ALSA_CARD', 'dummy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vboxuser/snap/code/240/.local/share:/home/vboxuser/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm:/opt/ros/humble')]), 'shell': False}
+[51.025034] (-) TimerEvent: {}
+[51.128639] (sentinel_swarm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.132585] (-) TimerEvent: {}
+[51.148582] (sentinel_swarm) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[51.148842] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/rosidl_interfaces/sentinel_swarm\n'}
+[51.148919] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__functions.h\n'}
+[51.148987] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__struct.h\n'}
+[51.149050] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__type_support.h\n'}
+[51.149113] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__functions.h\n'}
+[51.149175] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__struct.h\n'}
+[51.149235] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__type_support.h\n'}
+[51.149297] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__functions.h\n'}
+[51.149356] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__struct.h\n'}
+[51.149416] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__type_support.h\n'}
+[51.149476] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/drone_state.h\n'}
+[51.151785] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/formation_reference.h\n'}
+[51.151888] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_generator_c__visibility_control.h\n'}
+[51.196353] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/swarm_command.h\n'}
+[51.196504] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/library_path.sh\n'}
+[51.196573] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/library_path.dsv\n'}
+[51.196653] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_fastrtps_c.h\n'}
+[51.196717] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_fastrtps_c.h\n'}
+[51.196779] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_c.h\n'}
+[51.196843] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[51.196902] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_c.h\n'}
+[51.196965] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_introspection_c.h\n'}
+[51.197024] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_introspection_c.h\n'}
+[51.197080] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[51.207353] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__builder.hpp\n'}
+[51.223186] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__struct.hpp\n'}
+[51.223291] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__traits.hpp\n'}
+[51.223359] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__type_support.hpp\n'}
+[51.223422] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__builder.hpp\n'}
+[51.223483] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__struct.hpp\n'}
+[51.225648] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__traits.hpp\n'}
+[51.225765] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__type_support.hpp\n'}
+[51.225831] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__builder.hpp\n'}
+[51.228138] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__struct.hpp\n'}
+[51.236652] (-) TimerEvent: {}
+[51.236713] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__traits.hpp\n'}
+[51.236829] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__type_support.hpp\n'}
+[51.236898] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/drone_state.hpp\n'}
+[51.241312] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/formation_reference.hpp\n'}
+[51.241383] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[51.241448] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/swarm_command.hpp\n'}
+[51.241510] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.241571] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.241629] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.241687] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[51.241750] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.241806] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/formation_reference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.241864] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/include/sentinel_swarm/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.241920] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/pythonpath.sh\n'}
+[51.266401] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/pythonpath.dsv\n'}
+[51.278771] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[51.278973] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[51.279043] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[51.279107] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[51.279183] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/__init__.py\n'}
+[51.279244] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_c.c\n'}
+[51.279303] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[51.279362] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/_sentinel_swarm_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[51.279419] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/libsentinel_swarm__rosidl_generator_py.so\n'}
+[51.279478] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/__init__.py\n'}
+[51.279536] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state.py\n'}
+[51.293683] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state_s.c\n'}
+[51.293836] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference.py\n'}
+[51.293910] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference_s.c\n'}
+[51.293948] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command.py\n'}
+[51.295585] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command_s.c\n'}
+[51.320705] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.320813] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.320903] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.320969] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.330467] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.342460] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.348010] (-) TimerEvent: {}
+[51.354654] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/rust_packages/sentinel_swarm\n'}
+[51.354828] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/Cargo.toml\n'}
+[51.354874] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/build.rs\n'}
+[51.354911] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/lib.rs\n'}
+[51.356740] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/msg.rs\n'}
+[51.359030] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/rust/src/msg/rmw.rs\n'}
+[51.359106] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/DroneState.idl\n'}
+[51.359169] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/SwarmCommand.idl\n'}
+[51.359229] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/FormationReference.idl\n'}
+[51.359289] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/DroneState.msg\n'}
+[51.359347] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/SwarmCommand.msg\n'}
+[51.359404] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/msg/FormationReference.msg\n'}
+[51.359463] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[51.371968] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[51.372067] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[51.372130] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[51.372188] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/__init__.py\n'}
+[51.372247] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/communication_layer.py\n'}
+[51.372322] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/drone_controller.py\n'}
+[51.372379] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/gazebo_bridge.py\n'}
+[51.372440] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/math_utilities.py\n'}
+[51.372495] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/mission_planner.py\n'}
+[51.372555] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_coordinator.py\n'}
+[51.372611] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_monitor.py\n'}
+[51.372666] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__init__.py\n'}
+[51.372721] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/__init__.cpython-310.pyc\n'}
+[51.372783] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/communication_layer.cpython-310.pyc\n'}
+[51.372841] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/drone_controller.cpython-310.pyc\n'}
+[51.372896] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/gazebo_bridge.cpython-310.pyc\n'}
+[51.372952] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/math_utilities.cpython-310.pyc\n'}
+[51.373006] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/mission_planner.cpython-310.pyc\n'}
+[51.373061] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/swarm_coordinator.cpython-310.pyc\n'}
+[51.374992] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/__pycache__/swarm_monitor.cpython-310.pyc\n'}
+[51.375045] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/communication_layer.py\n'}
+[51.375082] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/drone_controller.py\n'}
+[51.375119] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/gazebo_bridge.py\n'}
+[51.375162] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/math_utilities.py\n'}
+[51.375208] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/mission_planner.py\n'}
+[51.375248] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/swarm_coordinator.py\n'}
+[51.375281] (sentinel_swarm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/swarm_core/swarm_monitor.py\n'}
+[51.375323] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/config/swarm_config.yaml\n'}
+[51.385904] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/launch/swarm_launch.py\n'}
+[51.452535] (-) TimerEvent: {}
+[51.470161] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/package_run_dependencies/sentinel_swarm\n'}
+[51.556268] (-) TimerEvent: {}
+[51.559380] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/parent_prefix_path/sentinel_swarm\n'}
+[51.658597] (-) TimerEvent: {}
+[51.679228] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/ament_prefix_path.sh\n'}
+[51.760715] (-) TimerEvent: {}
+[51.772259] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/ament_prefix_path.dsv\n'}
+[51.861353] (-) TimerEvent: {}
+[51.935858] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/path.sh\n'}
+[51.962406] (-) TimerEvent: {}
+[51.989408] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/environment/path.dsv\n'}
+[52.027320] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.bash\n'}
+[52.040321] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.sh\n'}
+[52.063966] (-) TimerEvent: {}
+[52.086800] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.zsh\n'}
+[52.115945] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/local_setup.dsv\n'}
+[52.165341] (-) TimerEvent: {}
+[52.270413] (-) TimerEvent: {}
+[52.311634] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/package.dsv\n'}
+[52.380446] (-) TimerEvent: {}
+[52.491138] (-) TimerEvent: {}
+[52.505209] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/ament_index/resource_index/packages/sentinel_swarm\n'}
+[52.560212] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/rosidl_cmake-extras.cmake\n'}
+[52.579903] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[52.591445] (-) TimerEvent: {}
+[52.594196] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[52.646128] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[52.678392] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[52.691928] (-) TimerEvent: {}
+[52.698289] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[52.725717] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[52.778536] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarmConfig.cmake\n'}
+[52.793410] (-) TimerEvent: {}
+[52.825958] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarmConfig-version.cmake\n'}
+[52.885813] (sentinel_swarm) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/package.xml\n'}
+[52.893648] (-) TimerEvent: {}
+[52.910531] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_generator_c.so\n'}
+[52.910894] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_generator_c.so" to ""\n'}
+[52.910931] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_fastrtps_c.so\n'}
+[52.910961] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[52.910988] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_introspection_c.so\n'}
+[52.911012] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_introspection_c.so" to ""\n'}
+[52.911036] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_c.so\n'}
+[52.915173] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_c.so" to ""\n'}
+[52.915676] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_fastrtps_cpp.so\n'}
+[52.917015] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[52.917187] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_introspection_cpp.so\n'}
+[52.918001] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[52.918060] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_cpp.so\n'}
+[52.918972] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_typesupport_cpp.so" to ""\n'}
+[52.971177] (sentinel_swarm) StdoutLine: {'line': b"Listing '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm'...\n"}
+[52.972139] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/__init__.py'...\n"}
+[52.972308] (sentinel_swarm) StdoutLine: {'line': b"Listing '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg'...\n"}
+[52.972377] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/__init__.py'...\n"}
+[52.972746] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_drone_state.py'...\n"}
+[52.972816] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_formation_reference.py'...\n"}
+[52.972999] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/sentinel_swarm/msg/_swarm_command.py'...\n"}
+[52.987616] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_generator_py.so\n'}
+[52.987890] (sentinel_swarm) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/lib/libsentinel_swarm__rosidl_generator_py.so" to ""\n'}
+[52.994571] (-) TimerEvent: {}
+[53.064938] (sentinel_swarm) StdoutLine: {'line': b"Listing '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core'...\n"}
+[53.065166] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/__init__.py'...\n"}
+[53.065199] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/communication_layer.py'...\n"}
+[53.065244] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/drone_controller.py'...\n"}
+[53.065271] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/gazebo_bridge.py'...\n"}
+[53.065295] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/math_utilities.py'...\n"}
+[53.065319] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/mission_planner.py'...\n"}
+[53.065426] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_coordinator.py'...\n"}
+[53.065461] (sentinel_swarm) StdoutLine: {'line': b"Compiling '/home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/local/lib/python3.10/dist-packages/swarm_core/swarm_monitor.py'...\n"}
+[53.071551] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_cExport.cmake\n'}
+[53.072858] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_cExport-noconfig.cmake\n'}
+[53.073040] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[53.073112] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[53.073178] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cExport.cmake\n'}
+[53.073245] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[53.077492] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cExport.cmake\n'}
+[53.077677] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[53.077710] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_cppExport.cmake\n'}
+[53.077745] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[53.077777] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[53.079547] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[53.085524] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[53.085659] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cppExport.cmake\n'}
+[53.085727] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/sentinel_swarm__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[53.086753] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_pyExport.cmake\n'}
+[53.086954] (sentinel_swarm) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Sentinel-AI/ros2_ws/install/sentinel_swarm/share/sentinel_swarm/cmake/export_sentinel_swarm__rosidl_generator_pyExport-noconfig.cmake\n'}
+[53.091653] (sentinel_swarm) CommandEnded: {'returncode': 0}
+[53.097665] (-) TimerEvent: {}
+[53.144125] (sentinel_swarm) JobEnded: {'identifier': 'sentinel_swarm', 'rc': 0}
+[53.145012] (-) EventReactorShutdown: {}

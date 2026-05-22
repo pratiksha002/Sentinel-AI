@@ -328,5 +328,4 @@ ros2 topic echo /swarm/formation_error
 
 ---
 
-Generated: 2026-05-20 14:30 UTC  
 Status: ✅ READY FOR TESTING
