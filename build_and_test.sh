@@ -58,3 +58,24 @@ echo "2. Terminal 2: ros2 run sentinel_swarm swarm_monitor.py"
 echo "3. Terminal 3: ros2 topic list"
 echo ""
 echo "Or read BUILD_AND_RUN.md for detailed instructions"
+
+# Stop Terminal 1 (Ctrl+C)
+# Then edit config:
+#for 2 drones:
+#sed -i 's/num_drones: 1/num_drones: 2/' /home/vboxuser/Sentinel-AI/config/swarm_config.yaml
+
+# Rebuild:
+#cd /home/vboxuser/Sentinel-AI/ros2_ws && colcon build --symlink-install
+
+# Relaunch Terminal 1:
+#ros2 launch sentinel_swarm swarm_launch.py
+
+# To test with 5 drones, repeat the above steps but change num_drones to 5 in the config file.
+#sed -i 's/num_drones: 2/num_drones: 5/' /home/vboxuser/Sentinel-AI/config/swarm_config.yaml
+#cd /home/vboxuser/Sentinel-AI/ros2_ws && colcon build --symlink-install
+# Restart Terminal 1
+
+# Kill all Gazebo and ROS2 nodes:
+#pkill -9 gazebo
+#pkill -f "ros2"
+#pkill -f "swarm"
