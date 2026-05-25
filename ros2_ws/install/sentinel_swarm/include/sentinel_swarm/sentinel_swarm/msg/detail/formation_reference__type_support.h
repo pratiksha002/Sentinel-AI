@@ -1,0 +1,1 @@
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/rosidl_generator_c/sentinel_swarm/msg/detail/formation_reference__type_support.h

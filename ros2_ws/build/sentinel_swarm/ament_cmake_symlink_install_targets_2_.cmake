@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/rosidl_generator_py/sentinel_swarm/sentinel_swarm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "sentinel_swarm__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/sentinel_swarm")

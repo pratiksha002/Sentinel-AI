@@ -1,0 +1,1 @@
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/ament_cmake_environment_hooks/local_setup.zsh

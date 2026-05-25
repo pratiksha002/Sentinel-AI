@@ -1,0 +1,1 @@
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/rosidl_typesupport_introspection_c/sentinel_swarm/msg/detail/drone_state__rosidl_typesupport_introspection_c.h

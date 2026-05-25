@@ -1,0 +1,1 @@
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/rosidl_typesupport_fastrtps_c/sentinel_swarm/msg/detail/swarm_command__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,1 @@
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/rosidl_generator_rs/sentinel_swarm/rust/src/msg.rs

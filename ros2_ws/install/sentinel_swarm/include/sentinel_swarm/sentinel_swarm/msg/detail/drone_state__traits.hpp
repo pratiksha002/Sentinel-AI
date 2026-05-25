@@ -1,0 +1,1 @@
+/home/vboxuser/Sentinel-AI/ros2_ws/build/sentinel_swarm/rosidl_generator_cpp/sentinel_swarm/msg/detail/drone_state__traits.hpp
